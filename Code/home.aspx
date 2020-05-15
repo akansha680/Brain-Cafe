@@ -1,0 +1,98 @@
+﻿<%@ Page Title="My Home Page" Language="C#" MasterPageFile="~/MasterPage.master" AutoEventWireup="true" CodeFile="home.aspx.cs" Inherits="home" %>
+
+ <asp:Content ID="Content1" ContentPlaceHolderID="ContentPlaceHolder1" Runat="Server">
+
+        <div class="home-bg">
+             <div class="home-header">
+                 <p >
+                     “Students do not learn much just sitting in classes listening to teachers, memorizing prepackaged assignments, and spitting out answers. They must talk about what they are learning, write reflectively about it, relate it to past experiences, and apply it to their daily lives. They must make what they learn part of themselves.” 
+                  <br />
+                  <span ></span>
+                 </p>
+                
+            </div>
+           
+       </div>
+    
+   </asp:Content>
+<asp:Content ContentPlaceHolderID="ContentPlaceHoldermenu" runat="server">
+
+     <div class="header_down">
+                        
+                        <button class="headbutton" ><a class="deco" href="home.aspx"><svg fill="white" height="34" viewBox="0 0 24 24" width="34" xmlns="http://www.w3.org/2000/svg" ><path d="M10 20v-6h4v6h5v-8h3L12 3 2 12h3v8z"/><path d="M0 0h24v24H0z" fill="none"/></svg></a></button>
+                        <button class="headbutton" ><a class="deco" href="home.aspx">Home</a></button>
+                        <button class="headbutton" ><a class="deco" href="aboutus.aspx">About Us</a></button>
+                        <button class="headbutton" ><a class="deco" href="Login.aspx">Course</a></button>  
+                        <button class="headbutton" ><a class="deco" href="home.aspx">Exam</a></button>
+                        <button class="headbutton" ><a class="deco" href="home.aspx">Notices</a></button>
+                        <button class="headbutton" ><a class="deco" href="Login.aspx">Tutorials</a></button>
+                        <button class="headbutton" ><a class="deco" href="Login.aspx">References</a></button>
+                        
+                        
+                        <button class="headbutton log" ><a class="deco" href="Registrartion.aspx">Sign Up</a></button>
+                        <button class="headbutton log" ><a class="deco" href="Login.aspx">Login</a></button>
+                    </div>
+</asp:Content>
+
+
+<asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder3" Runat="Server">
+     <div class="home-mid">
+                
+            </div>
+  
+</asp:Content>
+
+
+
+
+
+<asp:Content ID="content" runat="server" ContentPlaceHolderID="ContentPlaceHolder2">
+    <hr />
+    
+    <div class="home-cont">
+        <div class="course-outer-div" style="margin:8px; height:400px; width:300px;">
+             <img  src="images/courseimage/1.png" class="course-inner-div-img"  />
+                <h3 class="course-inner-div-h3" style="margin-left:100px;">HTML Fundamentals</h3>
+                <p class="course-inner-div-p">This FREE course will teach you how to design a web page using HTML. Complete a series of hands-on exercises and practice while writing real HTML code.</p>
+                <asp:button ID="htmlbtn" runat="server" Class="course-inner-div-btn" Text="Know More" />
+       </div>
+            
+
+        <div class="course-outer-div" style="margin:8px;height:400px; width:300px;">
+            <img  src="images/courseimage/2.png" class="course-inner-div-img" />
+                <h3 class="course-inner-div-h3" style="margin-left:100px;">CSS Fundamentals</h3>
+                <p class="course-inner-div-p" >Our CSS course will teach you how to control the style &amp; layout of websites. Complete a series of exercises and practice while filling out actual CSS templates.</p>
+               <asp:button ID="cssbtn" runat="server" Class="course-inner-div-btn" Text="Know More" />
+        </div>
+ 
+
+        <div class="course-outer-div" style="margin:8px;height:400px; width:300px;">
+            <img  src="images/courseimage/3.png" class="course-inner-div-img" />
+                <h3 class="course-inner-div-h3" style="margin-left:100px;">JavaScript <br />Basics </h3>
+                <p class="course-inner-div-p">Learn all the basic features of JavaScript, including making your website more interactive, changing website content, validating forms, and so much more.</p>
+                <asp:button ID="jsbtn" runat="server" Class="course-inner-div-btn" style="margin-top:-30px;" Text="Know More" />
+        </div>
+        
+         <div style="float:left;  width:1000px; height:40px;  text-align:center; color:#063852; ">
+             <a href="course.aspx">
+                 <b> View all Courses</b>
+             </a>
+         </div>                                
+
+
+    </div>
+    <hr />
+    <br />
+    <br />
+    
+    <div class="home-footer" >
+                <h2 class="home-footer-font" >Available Anytime & Anywhere for FREE!</h2>
+                <h3 class="home-footer-font"  >Learn on the web and on the go. <br />
+                    Available on all major devices and platforms.<br> 
+                    Always pick up where you left off. <br />
+                    More simple and enjoyable than ever! </h3>
+
+                <img src="images/photos/1.jpg" style="height:350px; width:700px; margin-top:-250px; margin-left:600px;" />
+    </div>
+
+</asp:Content>

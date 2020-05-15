@@ -1,0 +1,98 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage.master.cs" Inherits="MasterPage" %>
+
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head runat="server">
+        <title>BrainCafe</title>
+		    <meta charset="utf-8"/>
+		    <meta name="description" content="Free Web tutorials" />
+		    <meta name="keywords" content="HTML,CSS,JavaScript,E-Learning,Web Tutorials,Learn Playing, Play Learning,Free Learning, Learn Web Design,Learn HTML,Learn CSS"/>
+		    <meta name="author" content="Porush Marwaha"/>
+		    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+            <link rel="stylesheet" href="w3css.css"/>
+            <link href="StyleSheet.css" rel="stylesheet" />
+                
+
+           
+    </head>
+    <body> 
+        <form id="form1" runat="server">
+            <div id="background">
+            
+                <div class="header">                
+                   
+                     <div class="header_up">
+                        <img src="logo/1.png" class="logo" />  
+                        
+                    </div>
+                </div>
+
+                   
+                
+                <asp:ContentPlaceHolder ID="ContentPlaceHoldermenu" runat="server">  </asp:ContentPlaceHolder>
+                <div id="content">
+                    
+                    
+                <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+
+
+                 </asp:ContentPlaceHolder>
+                    
+                </div>
+                <asp:ContentPlaceHolder ID="ContentPlaceHolder3" runat="server">
+
+
+                 </asp:ContentPlaceHolder>
+                           
+             <asp:ContentPlaceHolder ID="ContentPlaceHolder2" runat="server">
+
+
+                 </asp:ContentPlaceHolder>
+                 
+                   
+               <div class="aboutus-content2-div" style="clear:both;"><h4 class="aboutus-content2-div-h4">Learn Playing. Play Learning.</h4></div>
+    <div class="aboutus-content3-div">
+        <div class="aboutus-content3-outer-div1 ">
+            <div class="aboutus-content3-inner-div ">
+                <div class="aboutus-content3-inner-div1 hover2 " style="background-color:#66a5ad"><img src="images/social/social-media.png" style="height:50px; width:50px; margin:10px;" /></div>
+                <div class="aboutus-content3-inner-div2"><h4 style="margin-top:15px;"> @BrainCafe</h4></div>
+            </div>
+            <div class="aboutus-content-inner-div  ">
+                <div class="aboutus-content3-inner-div1 hover2 " style="background-color:#07575b" ><img src="images/social/social.png" style="height:50px; width:50px; margin:10px;" /></div>
+                <div class="aboutus-content3-inner-div2"><h4 style="margin-left:15px; margin-top:16px;"> BrainCafe</h4></div>
+            </div>
+            <div class="aboutus-content-inner-div  ">
+                <div class="aboutus-content3-inner-div1 hover2 " style="background-color:#003b46" ><img src="images/social/social-network (1).png" style="height:50px; width:50px; margin:10px;" /></div>
+                <div class="aboutus-content3-inner-div2"><h4 style="margin-top:17px;" >+BrainCafe</h4></div>
+            </div>
+        </div>
+
+        <div class="aboutus-content3-outer-div2">
+            <ul style="color:grey; list-style:none; padding-top:20px;">
+                <li>Home </li>
+                 <li>Terms & Condition</li>
+                 <li> About Us</li>
+                 <li> Privacy Policy</li>  
+                 <li><a href="Contactus.aspx">ContactUs</a> </li>
+                 <li>Feedback</li>
+            </ul>
+        </div>
+
+        <div class="aboutus-content3-outer-div3">
+         <img  src="logo/10.png" style="height:50px; width:80%; margin:10px; margin-bottom:0px;" />
+            <h5 style="margin-left:20px; color:black; margin-bottom:-5px; ">Braincafe Inc.</h5>
+      
+            <h6 style="margin-left:20px; color:grey;">Upetc ,16 Rana Pratap Marg, Hazratganj, Lucknow- 226001</h6>
+             <button style="height:30px; width:80px; color:white; background-color:#66a5ad; margin-left:20px; border-radius:5px; border-width:0px;">Email Us</button>
+        </div>
+        <div style="height:50px; width:100%;  clear:both ; margin-top:230px; margin-bottom:10px;">
+             <h6 style="text-align:center; color:gray;"> By using this site, you agree to the Terms of Use and Privacy Policy.<br/>
+			        <i >© brainCafe.com All rights reserved</i></h6><br />
+        </div>
+        
+    </div>
+
+      </div>          
+        </form>
+    </body>
+</html>

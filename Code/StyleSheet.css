@@ -1,0 +1,232 @@
+﻿*{margin:0 0 0 0px;}
+
+
+ /* master  main background*/
+    .background{ background-color:red; height:100%; width:100%;}
+
+    /* header section*/
+        .header{background-color:green; height:140px; width:100%; }
+            .header_up{background-color:white; height:140px; width:100%; }
+                .logo{ height:60%; width:20%; float:left; margin-top:20px; margin-left:20px;}
+                .logo_text{font-family:"Segoe UI",Arial,sans-serif; font-size:20px;  float:right; margin-top:100px; letter-spacing:3px; color:#063852; }
+
+
+  /* menu section*/
+            .header_down{background-color:#063852; height:50px; width:100%; text-decoration:none;}
+                 .headbutton{height:100%; float:left; font-family:"Segoe UI",Arial,sans-serif; letter-spacing :3px; font-size:20px; background-color:#063852; border:thin; color:white; margin-left:20px; text-decoration:none; }  
+                 .deco{text-decoration:none;}
+                 .headbutton:hover {background-color:white; color:black; text-decoration:none; }    svg:hover { fill:black;}
+                 .log{ float:right;}
+          
+                            
+  /*main section*/
+         #content{ width:1080px; height:100%; background-color:#fff; margin:0px auto;}
+
+
+  /*footer section*/
+           .aboutus-content2-div {height:50px; width:100%; background-color:#063852;  }
+            .aboutus-content2-div-h4 {color:white; text-align:center; font-weight:600; padding-top:10px;}
+
+         .aboutus-content3-div {height:330px; width:100%;  background-color:#e5f2eb; padding-top:20px; padding-bottom:20px;}
+            .aboutus-content3-outer-div1{height:210px; width:250px; background-color:green; margin-left:30%; float:left;     }
+                .aboutus-content3-inner-div{height:70px; width:100%; background-color:blue; color:#9dafbb}
+                    .aboutus-content3-inner-div1{height:70px; width:70px; float:left;background-color:aqua;}
+                    .aboutus-content3-inner-div2{height:70px; width:180px; float:left; background-color:white; color:gray;}
+            
+            .aboutus-content3-outer-div2{height:210px; width:250px;  float:left; margin-left:2%;  }
+
+            .aboutus-content3-outer-div3{height:210px; width:250px;  float:left; margin-left:2%;}
+
+
+
+ /*  end maseter main background*/
+
+
+ /* login page*/  
+       
+.login-bg{ background-color:#6fb98f; color:#063852; }
+     .rows{ }
+        .col1 {float: left;  width: 200px; text-align:right; font-family:"Segoe UI",Arial,sans-serif; font-size:20px;   }
+        .col2 { margin-left:210px; border-radius:30px; }
+        
+        
+ /* end  login page*/
+
+  /* hover classes*/
+
+ .hover:hover { box-shadow: 0 4px 8px 0 rgba(0,250,154, 0.2), 0 6px 20px 0 rgba(	0,250,154, 0.49); }
+ .hover:active { box-shadow: 0 4px 8px 0 rgba(0,250,154, 0.2), 0 6px 20px 0 rgba(	0,250,154, 0.49); }
+ .hover2:hover {box-shadow:grey 0px 3px 6px 3px;}
+ .hover2:active{box-shadow:#78a2dd 0px 3px 6px 3px ;}
+ .hover3:hover { box-shadow: 0 4px 8px 0 #063852, 0 6px 20px 0 #063852  }
+ .hover3:active { box-shadow: 0 4px 8px 0 #063852, 0 6px 20px 0 #063852 }
+ .hover4:hover { background-color:#20948b;  }
+ .hover4:active {background-color:#20948b;  }
+ .hover5:hover{background-color:#9bc01c; width:103%; color:white; }
+ .hover5:active{background-color:#9bc01c; width:103%; color:white; }
+    
+ /* end  hover clasess*/
+
+ /* Registration Page*/  
+       
+            .reg-background{ background-color:#6fb98f; color:#063852; }
+                .reg-mainbg{margin-left:150px; font-family:"Segoe UI",Arial,sans-serif; font-size:23px; }
+                    .rows1{padding:9px;}
+                        .cols1{float:left;  }
+                        .cols2{margin-left:200px; }  
+                        .calender{height:40px; width:350px; background-color:white; color:#063852;  font-size:15px; border-color:#6fb98f;}   
+                        .textbox1{width:350px; color:#063852; border-radius:10px; border:0px solid #633852;}
+                        .reg-button{color:#063852;}
+                        .rdb-button{color:#063852;}
+.cl1 {
+    width:500px;
+    text-align:right;
+    margin-right:20px;
+}
+        
+ /* end  Registration page*/
+
+  /* Course Page*/  
+       
+      .course-bg{background-color:white;} 
+            .course-outer-div{width:500px; height:300px; background-color:white; box-shadow:rgba(128, 128, 128, 0.7) 0px 2px 4px 2px; border-radius: 0px 0px 10px 10px; float:left; margin:10px;  }     
+                .course-inner-div-img{height:100px; width:100px; margin:10px; float:left;}
+                .course-inner-div-h3{margin-left:200px}
+                .course-inner-div-p{margin:100px 20px 20px 30px;}  
+                .course-inner-div-btn{height:40px; width:100px; background-color:dodgerblue; Color:white; border-radius:25px; float:right; margin-right:50px; border-width:0px;} 
+ /* end Course page*/
+ 
+ /* html page*/
+
+    .html-bg {background-color:white; color:grey; font-size:17px;}
+    .outer-html-div {background-color:white; height:170px; width:170px;margin: 40px 0px 0px 450px; text-align:center;}
+        .outer-html-div-margin1{margin: 40px 0px 0px 450px;}
+        .outer-html-div-margin2{margin: 40px 0px 0px 300px; float:left;}
+        .outer-html-div-margin3{margin: 40px 0px 0px 600px;}
+        .outer-html-div-margin4{margin: 40px 0px 0px 450px;}
+        
+
+    .inner-html-div1{background-color:#8eba43; height:120px; width:120px; margin: 50px 0px 0px 25px; border-radius:100px; box-shadow:0px 2px 4px 2px grey;}
+    .inner-html-div2{background-color:#8eba43; height:120px; float:left; margin: 0px 0px 0px 25px; border-radius:100px; width:120px; text-align:center; box-shadow:0px 2px 4px 2px grey;}
+    .inner-html-div3{background-color:#8eba43; height:120px; margin: 0px 0px 0px 25px; width:120px; border-radius:100px; text-align:center; box-shadow:0px 2px 4px 2px grey;}
+    .inner-html-div4{background-color:#8eba43; height:120px; margin: 0px 0px 0px 25px; width:120px; border-radius:100px; text-align:center;box-shadow:0px 2px 4px 2px grey;}
+    .inner-html-div5{background-color:white; height:120px; margin: 20px 0px 0px 470px; width:120px; text-align:center;}
+
+        .html-div-img1{ height:80px; width:80px; margin-left:20px; margin-top:20px; float:left}
+        .html-div-img2{ height:80px; width:80px; margin-left:3px; margin-top:20px;}
+        .html-div-img3{ height:80px; width:80px; margin-left:3px; margin-top:20px;}
+        .html-div-img4{ height:80px; width:80px; margin-left:3px; margin-top:20px;}
+        .html-div-img5{ height:80px; width:80px; margin-left:0px; margin-top:20px;}
+
+
+ /* end html page*/
+
+
+ /* module page */
+
+    .html-module-outer-div{ height:250px; width:250px; background-color:white; float:left;  margin:10px; margin-top:30px;  box-shadow: grey 0px 2px 5px 2px; border-radius:5px; }
+        .html-module-inner1-div{height:200px; width:250px; background-color:white; color:rgba(128, 128, 128, 1); font-size:20px; }
+            .html-module-inner-p{float:right; color:rgba(128, 128, 128, 1.0);}
+            .html-module-inner-h5{margin-left:10px; margin-right:10px;}
+
+        .html-module-inner2-div{height:50px; width:250px; background-color:#8eba43; color:white; font-size:17px;}
+            .html-module-inner-p2{text-align: center;font-size: 18px;}
+            .bottom{margin-bottom:300px;}
+ /* end module page */
+
+ /*home page*/
+
+ .home-bg{width:100%; height:100%; background-color:white;}
+        .home-cont{height:300px; width:950px; background-color:white; margin:0px auto; }
+        .home-header{height:220px; width:99%; margin:0px auto;  color:#063852; font-size:20px; margin-top:30px; }
+        .home-mid {height:500px; width:100%; transition-delay: 10s;  animation-name:slider; animation-duration:30s;  animation-fill-mode:both; transition-delay: 10s;
+                    animation-iteration-count:infinite;  animation-timing-function:cubic-bezier(); animation-direction:alternate-reverse; }
+          
+        @keyframes slider{ 
+           
+            0%{background-image: url('images/slider/2.jpg'); }
+            10%{background-image: url('images/slider/10.jpg');}
+            20%{background-image: url('images/slider/3.jpg');}
+            30%{background-image: url('images/slider/4.jpg');}
+            40%{background-image: url('images/slider/5.jpg');}
+            50%{background-image: url('images/slider/7.png');}
+            60%{background-image: url('images/slider/9.jpg');}            
+            70%{background-image: url('images/slider/11.jpg');}
+            80%{background-image: url('images/slider/12.jpg');}
+            90%{background-image: url('images/slider/13.jpg');}
+            100%{background-image: url('images/slider/15.jpg');}
+        }
+        .home-footer{ height:400px; width:100%; margin-top:150px; }
+            .home-footer-font{  margin-left:60px; font-weight:400; }
+
+  /* end home page*/
+
+  /*about us page*/
+
+    .aboutus-bg{background-color:white; height:800px; width:100%;}
+        .aboutus-div1{height:700px; width:700px;  float:left; margin:20px; box-shadow: grey 0px 1px 2px 1px; font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;}
+            .aboutus-div1-p1{font-size:25px;  margin:20px;}
+            .aboutus-div1-img{float:left; margin-left:10px;}
+            .aboutus-div1-h4{margin:10px; margin-left:130px; font-weight:500;}
+            .aboutus-div1-p2{margin:10px; margin-left:130px; font-size:17px; margin-top:0px;}
+
+        .aboutus-div2{height:600px; width:300px;  float:left; margin:20px; box-shadow: grey 0px 1px 2px 1px;}
+            .aboutus-div2-p1{font-size:20px;  margin:20px;}
+            .aboutus-div2-img{float:left; margin-left:25px;  margin-top:40px; height:80px; width:250px; border-radius:10px;}
+            .aboutus-div2-div1{float:left; margin-left:25px;  margin-top:40px; height:80px; width:260px; background-color:#063852; border-radius:10px; }
+            .aboutus-div2-img2{float:left;height:60px; width:60px; margin-left:10px; margin-top:10px;}
+            .aboutus-div2-p2{color:white; float:left; font-size:16px; margin-top:15px; margin-left:18px;}
+            .aboutus-div2-h3{margin-left:100px; color:white; margin-top:40px; }
+
+/* end about us page*/ 
+
+/*  Refernces page*/
+
+    .refer-bg{background-color:white;}
+        .refer-outer-div{  height:320px;  width:100%; float:left;}
+            .refer-inner-img{height:300px; width:500px; margin:10px; float:left; margin-left:30px;}
+            .refer-inner-div{height:300px; width:500px;   color:black;  float:left; margin:10px; padding:6px; box-shadow:0px 2px 4px 2px grey;}
+            .refer-inner-div-h3{padding:6px;}
+            .refer-inner-div-p{padding:6px;}
+
+
+/*  end References page*/
+
+/*  tutorial page*/
+
+.tuto-bg{}
+    .tuto-outer-div {height:500px; width:100%;  margin-top:0px;}
+        .tuto-inner-div {height:500px; width:300px;  float:left; padding:5px;}
+        .tuto-inner-div-iframe{box-shadow:0px 2px 4px 2px grey;}
+
+/* end tutorial page*/ 
+
+   
+/*  contact us page*/
+
+    .contactus-header{height:50px; width:100%;  color:black;  text-align:center;}
+       .contactus-bg{ margin-bottom:500px;  }
+        .contactus-left-bg{     margin-left:0px;    margin-top:10px;   box-shadow:0px 1px 3px 1px grey;    float:left; width:50%;}
+        .contactus-right-bg{    margin-left:30px;   margin-top:10px;   box-shadow:0px 1px 3px 1px grey;    float:left;  width:47%; }
+
+
+
+/*  end conatctus page*/
+
+/* admin panel matrial */
+
+    .admin-bg{margin:0px auto;}
+        
+        .admin-header{height:150px; width:100%; background-color:#282828;}
+        .admin-navigation{height:600px; width:230px; background-color:#464646; margin-left:0px; float:left;}
+            .admin-nav-btn{height:60px; width:100%;  border:0px solid #383838; font-weight:500; color:white; background-color:#343434; font-size:16px; margin-top:0px;}
+            .admin-nav-btn-icon{height:40px; width:40px; }
+
+            #admin-content{ width:200%; height:100%; background-color:#000;float:left;}
+
+
+
+
+
+/* end admin panel matrial */
+     

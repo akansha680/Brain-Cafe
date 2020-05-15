@@ -1,0 +1,69 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="AdminMasterPage.master.cs" Inherits="Admin_AdminMasterPage" %>
+
+
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head runat="server">
+        <title>BrainCafe</title>
+		    <meta charset="utf-8"/>
+		    <meta name="description" content="Free Web tutorials" />
+		    <meta name="keywords" content="HTML,CSS,JavaScript,E-Learning,Web Tutorials,Learn Playing, Play Learning,Free Learning, Learn Web Design,Learn HTML,Learn CSS"/>
+		    <meta name="author" content="Porush Marwaha"/>
+		    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+            <link rel="stylesheet" href="../w3css.css"/>
+            <link href="../StyleSheet.css" rel="stylesheet" />
+
+    </head>
+<body>
+    <form runat="server">
+        <div class="admin-bg" >
+            <div class="admin-header">
+                                                                        
+                        <img src="../logo/2.png" class="logo" style="margin-top:30px;" />  
+                        <p class="logo_text" style="color:white;">THE  WORLD'S  LARGEST  WEB  DEVLOPER  SITE.</p>
+                
+            </div>
+            <div class="admin-navigation" >
+               <button class="admin-nav-btn" style="text-align:left; font-size:20px;"><img src="../images/admin button icons/people.png" style="margin-right:30px; " class="admin-nav-btn-icon"/>Admin Panel</button>
+
+               <button class="admin-nav-btn hover5" style="margin-top:30px; text-align:left;"><img src="../images/admin button icons/people (1).png"    style="margin-right:30px;" class="admin-nav-btn-icon"/>User</button>
+               <button class="admin-nav-btn hover5" style="margin-top:2px;  text-align:left;"><img src="../images/admin button icons/arrows.png"        style="margin-right:30px;" class="admin-nav-btn-icon"/>Feedback</button>
+               <button class="admin-nav-btn hover5" style="margin-top:2px;  text-align:left;"><img src="../images/admin button icons/black.png"         style="margin-right:30px;" class="admin-nav-btn-icon"/>Mesaages</button>
+               <button class="admin-nav-btn hover5" style="margin-top:2px;  text-align:left;"><img src="../images/admin button icons/library.png"       style="margin-right:30px;" class="admin-nav-btn-icon"/>Exam</button>
+               <button class="admin-nav-btn hover5" style="margin-top:2px;  text-align:left;"><img src="../images/admin button icons/interface (1).png" style="margin-right:30px;" class="admin-nav-btn-icon"/>Notices</button>
+                                                                                                                                                          
+            </div>
+            <div class="admin-content">
+
+                <asp:contentplaceholder ID="admincontentplaceholder" runat="server">
+
+                </asp:contentplaceholder>
+            </div>
+            <div class="admin-footer">
+
+                <div style="clear:both; height:50px; width:100%; background-color:#282828;"><h4 class="aboutus-content2-div-h4">Learn Playing. Play Learning.</h4></div>
+                <div style="color:red; text-align:center; background-color:white; height:100px;  width:100%;">
+                            
+                             <div style="height:50px; width:100%;  clear:both ; margin-top:0px; margin-bottom:10px;">
+                               <h6 style="text-align:center; color:gray;"> By using this site, you agree to the Terms of Use and Privacy Policy.<br/>
+			                      <i >©2015-2016, brainCafe.com All rights reserved</i></h6><br />
+                                    
+                                     <div class="hover2" style="background-color:#3b5998; height:50px; width:50px; margin:-20px 0 0 45%; border-radius:100px; float:left;  ">
+                                         <img src="../images/social/social.png" style="height:30px; width:30px; margin-left:10px; margin-top:10px; float:left;"/>
+                                     </div>
+                                     <div class="hover2" style="background-color:#00aced;; height:50px; width:50px; margin:-20px 0 0 15px; border-radius:100px; float:left;">
+                                         <img src="../images/social/social-media.png" style="height:30px; width:30px; margin-left:4px; margin-top:10px; "/>
+                                     </div>
+                                     <div class="hover2" style="background-color:#dd4b39; height:50px; width:50px; margin:-20px 0 0 15px; border-radius:100px; float:left;">
+                                         <img src="../images/social/social-network (1).png" style="height:30px; width:30px; margin-left:4px; margin-top:10px; "/>
+                                     </div>
+                                 <hr />
+                             </div>
+                </div>
+            </div>
+        </div>
+
+        </form>
+</body>
+</html>
+
